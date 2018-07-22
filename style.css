@@ -1,0 +1,35 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top: 40px
+}
+
+h1 {    
+    font-family: 'Indie Flower', cursive;
+    font-size: 3em;
+    text-align: left;
+    width: 290px;
+    margin: 10px 10px 0px 10px;
+    text-shadow: 2px 2px 6px #000;
+    border-bottom: 1px solid #f1f1f1;
+    
+}
+
+.banner2 {
+    border-bottom: 1px solid #f1f1f1;
+    text-shadow: 2px 2px 6px #000;
+    width: 350px;
+}
+
+
+img {
+    width: 350px;
+    height: 200px;
+    margin: 10px;
+    transition: all 1s;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
