@@ -2,4 +2,4 @@
 
 <a href="https://developer-vs.github.io/image_gallery_2/">Live preview of image gallery</a>
 
-Technologies only HTML and CSS are used
+The technologies HTML and CSS are used
