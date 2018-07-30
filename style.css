@@ -1,32 +1,44 @@
-.container-header {
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: row;
-    justify-content: space-around;
-    font-size: 1.5em;
-    font-weight: 800;
-    text-transform: uppercase;
-    font-family: 'Raleway', sans-serif;
-    text-align: left;     
+h1 {
+    text-shadow: 2px 2px 6px #888888;
+    text-align: left; 
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    font-size: 45px;
+    margin: 20px 55px 0px 55px;
+    color: #0e1111;  
+    width: 720px;
+}
+
+h4 {
+    margin: 0px 55px;
+    font-size: 20px;
+    text-shadow: 2px 2px 8px #888888;
+    color: #414a4c;
+    font-family: 'Dancing Script', cursive;
 }
 
 .border {
-    border-bottom: 1px solid #f1f1f1;
+    margin: 40px 55px 0px 55px;
+    border: 0; 
+    height: 1px; 
+    background-image: -webkit-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -moz-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -ms-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0);
+    background-image: -o-linear-gradient(left, #f0f0f0, #8c8b8b, #f0f0f0); 
 }
 
 .container {
     display: flex;
     flex-wrap: wrap;
     align-items: flex-start;
-    flex-direction: row;
-    max-height: 100vh;
+    margin: 20px 55px;
     justify-content: center;
-    margin-top: 20px;
 }
 
 img {
 
-    max-width: 23vw;
+    width: 200px;
+    height: 200px;
     margin: 10px;
     transition: all 1s;
     box-shadow: 2px 2px 6px #000;
