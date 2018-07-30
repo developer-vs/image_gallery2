@@ -1,5 +1,4 @@
 h1 {
-    text-shadow: 2px 2px 6px #888888;
     text-align: left; 
     font-family: 'Dancing Script', cursive;
     font-weight: 700;
@@ -11,10 +10,8 @@ h1 {
 
 h4 {
     margin: 0px 55px;
-    font-size: 20px;
-    text-shadow: 2px 2px 8px #888888;
-    color: #414a4c;
-    font-family: 'Dancing Script', cursive;
+    font-size: 20px;    
+    color: #414a4c;    
 }
 
 .border {
@@ -30,7 +27,6 @@ h4 {
 .container {
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-start;
     margin: 20px 55px;
     justify-content: center;
 }
